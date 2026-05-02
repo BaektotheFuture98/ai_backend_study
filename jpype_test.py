@@ -1,4 +1,3 @@
-# 05_30_ChkJdkEnv.py 핵심 내용
 import jpype
 jvm_path = jpype.getDefaultJVMPath()
 if not jpype.isJVMStarted():

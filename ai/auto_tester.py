@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 
-from sit_1_0_scenario_data import COMMON_QUESTIONS 
+from ai.sit_1_0_scenario_data import COMMON_QUESTIONS 
 from config_2_advanced import BASE_DATA_DIR
 
 BASE_URL = "http://localhost:8103"
