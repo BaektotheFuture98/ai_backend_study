@@ -1,0 +1,26 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.8",
+    "dotenv>=0.9.9",
+    "google>=3.0.0",
+    "google-generativeai>=0.8.6",
+    "httpx>=0.28.1",
+    "jpype1>=1.7.0",
+    "konlpy>=0.6.0",
+    "langchain>=1.2.17",
+    "langchain-community>=0.4.1",
+    "langchain-google-genai>=4.2.2",
+    "langchain-text-splitters>=1.1.2",
+    "pandas>=3.0.2",
+    "pypdf>=6.10.2",
+    "python-multipart>=0.0.27",
+    "requests>=2.33.1",
+    "scikit-learn>=1.8.0",
+    "skilearn>=0.1.0",
+    "unicorn>=2.1.4",
+]
